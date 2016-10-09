@@ -1,0 +1,151 @@
+h1{
+display: block;
+outline: 1px solid white;
+color: white;
+background: red;
+font-size: 40px;
+}
+
+p{
+font-family: fantasy;
+font-size: 50px;
+font-weight: bolder;;
+color: tomato;
+backgroud: white;
+position: relative;
+
+}
+
+img {
+  display: block;
+  margin-left: auto;
+    margin-right: auto;
+  outline: 10px solid white
+}
+
+.one {
+  outline: 6px teal  ;
+
+}
+
+.two {
+  outline: 2px solid pink;
+}
+
+h1{
+  text-align: center;
+}
+p{
+  text-align: center;
+}
+
+body {
+  background-image: url("cartoon.jpg");
+}
+
+.three {
+  text-align: center;
+}
+
+.three {
+  font-size: 20px;
+}
+
+.four {
+  font-size: 10px;
+  color: gray;
+  text-align: center;
+}
+
+a {
+  font: bold 16px Arial;
+  text-decoration:none;
+  background-color: #pink;
+  color: #white;
+  padding: 1px 4px 1px 4px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+}
+
+ul {
+  list-style: none;
+}
+
+.five {
+  font: 12px arial;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+body{
+ background-image: url("cartoon.jpg");
+ font-family: "Open Sans",  Impact;
+}
+.area{
+  text-align:center;
+  font-size:6.5em;
+  color:#fff;
+  letter-spacing: -7px;
+  font-weight:700;
+  text-transform:uppercase;
+  animation:blur .75s ease-out infinite;
+  text-shadow:0px 0px 5px #fff,
+      0px 0px 7px #fff;
+}
+
+@keyframes blur{
+  from{
+      text-shadow:0px 0px 10px #fff,
+      0px 0px 10px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 50px #fff,
+      0px 0px 50px #fff,
+      0px 0px 50px #7B96B8,
+      0px 0px 150px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px -10px 100px #7B96B8,
+      0px -10px 100px #7B96B8;}
+}
+
+/* unvisited link */
+a:link {
+    color: red;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
+.bw {
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+
+.bw:hover {
+  opacity: .05px;
+  -webkit-filter: grayscale(100%)
+}
